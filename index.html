@@ -82,9 +82,12 @@
     <nav class="fixed w-full z-50 glass-panel border-b-0 py-4 px-6 md:px-12 transition-all duration-300" id="navbar">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <h1 class="font-serif text-xl md:text-2xl font-bold tracking-widest text-white">令和の国体論</h1>
-            <a href="#manifesto" class="text-sm md:text-base bg-white text-forest-900 px-4 py-2 rounded-full font-bold hover:bg-forest-100 transition shadow-[0_0_15px_rgba(255,255,255,0.3)]">
-                提言を読む
-            </a>
+            <div class="flex items-center gap-3 md:gap-6">
+                <a href="#labor" class="hidden md:inline text-sm text-gray-300 hover:text-white transition">フライトプラン</a>
+                <a href="#manifesto" class="text-sm md:text-base bg-white text-forest-900 px-4 py-2 rounded-full font-bold hover:bg-forest-100 transition shadow-[0_0_15px_rgba(255,255,255,0.3)]">
+                    提言を読む
+                </a>
+            </div>
         </div>
     </nav>
 
@@ -175,6 +178,122 @@
         </div>
     </section>
 
+    <!-- Labor Redefinition Section -->
+    <section id="labor" class="py-24 bg-forest-900/60 relative border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="text-center mb-16 fade-in">
+                <p class="text-tech-400 font-bold tracking-[0.2em] mb-4 text-sm">FLIGHT PLAN / 01</p>
+                <h3 class="font-serif text-3xl md:text-5xl font-bold mb-6">労働を、4つに分ける。</h3>
+                <p class="text-gray-400 max-w-2xl mx-auto md:text-lg">
+                    労働はその性質によって対価の決まり方が異なる。<br>
+                    生産から創造へ ― 砂漠（時間の切り売り）から森（希少性と共感）へと向かう、対価の進化。
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 fade-in">
+                <!-- 1 -->
+                <div class="glass-panel p-6 rounded-2xl border-t-2 border-desert-500 flex flex-col">
+                    <span class="font-serif text-4xl font-black text-desert-500/60 mb-3">01</span>
+                    <h4 class="text-lg font-bold mb-2">生産・物質労働</h4>
+                    <p class="text-gray-400 text-sm flex-grow">自然や原材料への働きかけ、モノの創出（農業・工業）。</p>
+                    <p class="text-desert-100 text-xs mt-4 pt-4 border-t border-white/10">対価 ＝ <span class="font-bold">（売上 − 経費）÷ 時間</span>（市場相場に依存）</p>
+                </div>
+                <!-- 2 -->
+                <div class="glass-panel p-6 rounded-2xl border-t-2 border-amber-500/60 flex flex-col">
+                    <span class="font-serif text-4xl font-black text-amber-500/50 mb-3">02</span>
+                    <h4 class="text-lg font-bold mb-2">移転・ケア労働</h4>
+                    <p class="text-gray-400 text-sm flex-grow">他者の不便解消、安心・快適の提供（サービス・医療）。</p>
+                    <p class="text-amber-100 text-xs mt-4 pt-4 border-t border-white/10">対価 ＝ <span class="font-bold">サービス売上 − 経費</span>（時間の切り売り）</p>
+                </div>
+                <!-- 3 -->
+                <div class="glass-panel p-6 rounded-2xl border-t-2 border-tech-500 flex flex-col">
+                    <span class="font-serif text-4xl font-black text-tech-500/60 mb-3">03</span>
+                    <h4 class="text-lg font-bold mb-2">効率改善労働</h4>
+                    <p class="text-gray-400 text-sm flex-grow">社会や組織の「負（ムダ・コスト）」の削減（システム構築）。</p>
+                    <p class="text-tech-400 text-xs mt-4 pt-4 border-t border-white/10">対価 ＝ <span class="font-bold">削減コスト・新利益からの分配</span>（レバレッジ）</p>
+                </div>
+                <!-- 4 -->
+                <div class="glass-panel p-6 rounded-2xl border-t-2 border-forest-500 shadow-[0_0_25px_rgba(76,175,80,0.2)] flex flex-col">
+                    <span class="font-serif text-4xl font-black text-forest-500 mb-3">04</span>
+                    <h4 class="text-lg font-bold mb-2 text-forest-100">創造・創作労働</h4>
+                    <p class="text-gray-300 text-sm flex-grow">ゼロから新しい価値・概念・美の創出（芸術・研究開発）。</p>
+                    <p class="text-forest-100 text-xs mt-4 pt-4 border-t border-white/10">対価 ＝ <span class="font-bold">社会が認めた希少性と共感</span>（時間と無関係）</p>
+                </div>
+            </div>
+            <div class="max-w-3xl mx-auto mt-12 glass-panel p-6 rounded-xl border-l-4 border-tech-500 fade-in">
+                <h4 class="font-bold text-tech-400 mb-2 flex items-center gap-2"><i data-lucide="info" class="w-4 h-4"></i>終身雇用の本質</h4>
+                <p class="text-gray-400 text-sm leading-relaxed">かつての終身雇用・年功序列は、成果開花に時間がかかる「④ 創造労働」のリスクを組織が肩代わりし、人生のタイムラインで対価を均（なら）す高度なセーフティネット（パトロンシステム）だった。企業の短命化により、このシステムは崩壊している。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- National Circulation Model Section -->
+    <section id="circulation" class="py-24 relative">
+        <div class="max-w-6xl mx-auto px-6 lg:px-12">
+            <div class="text-center mb-16 fade-in">
+                <p class="text-tech-400 font-bold tracking-[0.2em] mb-4 text-sm">FLIGHT PLAN / 02</p>
+                <h3 class="font-serif text-3xl md:text-5xl font-bold mb-6">国は、支配者ではなく<br class="md:hidden">「精算窓口」。</h3>
+                <p class="text-gray-400 max-w-2xl mx-auto md:text-lg">
+                    国民主権を <span class="text-white font-bold">国民＝主／国＝従／会社＝従</span> として捉え直す。<br>
+                    ベーシックインカム（BI）が生存を保証し、その安心が創造を解放する循環。
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6 items-stretch fade-in">
+                <div class="glass-panel p-8 rounded-2xl border border-forest-500/40 shadow-[0_0_25px_rgba(76,175,80,0.15)] text-center flex flex-col">
+                    <div class="w-14 h-14 mx-auto bg-forest-500/20 rounded-full flex items-center justify-center mb-4"><i data-lucide="crown" class="w-7 h-7 text-forest-500"></i></div>
+                    <h4 class="text-xl font-bold mb-1">国民 <span class="text-forest-400 text-sm">（主）</span></h4>
+                    <p class="text-gray-400 text-sm flex-grow">BIで生存を保証され、その安心を土台に「労働の義務（経営または勤務）」を果たす。売れるか分からない画家や研究者も、創造のための会社を営むことで義務を果たせる。</p>
+                </div>
+                <div class="glass-panel p-8 rounded-2xl border border-white/10 text-center flex flex-col">
+                    <div class="w-14 h-14 mx-auto bg-desert-500/20 rounded-full flex items-center justify-center mb-4"><i data-lucide="building-2" class="w-7 h-7 text-desert-500"></i></div>
+                    <h4 class="text-xl font-bold mb-1">会社 <span class="text-desert-500 text-sm">（従）</span></h4>
+                    <p class="text-gray-400 text-sm flex-grow">国民の労働を受け止め、利益を上げて国に税を納める。</p>
+                </div>
+                <div class="glass-panel p-8 rounded-2xl border border-white/10 text-center flex flex-col">
+                    <div class="w-14 h-14 mx-auto bg-tech-500/20 rounded-full flex items-center justify-center mb-4"><i data-lucide="recycle" class="w-7 h-7 text-tech-400"></i></div>
+                    <h4 class="text-xl font-bold mb-1">国 <span class="text-tech-400 text-sm">（従）</span></h4>
+                    <p class="text-gray-400 text-sm flex-grow">集めた税金を、BIや公務員（公共インフラ）として100%国民に還元する「道具」。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Give and Take Section -->
+    <section id="givetake" class="py-24 bg-forest-900/60 relative border-t border-white/5">
+        <div class="max-w-5xl mx-auto px-6 lg:px-12">
+            <div class="text-center mb-12 fade-in">
+                <p class="text-tech-400 font-bold tracking-[0.2em] mb-4 text-sm">FLIGHT PLAN / 03</p>
+                <h3 class="font-serif text-3xl md:text-5xl font-bold mb-6">宇宙の鉄則：<br class="md:hidden">奪ったら、返す。</h3>
+                <p class="text-gray-400 max-w-2xl mx-auto md:text-lg">
+                    物理界に「作用あれば必ず反作用がある」ように、経済と地球環境においても、<br>
+                    奪ったもの（Take）には必ず同等のお返し（Give）が求められる。
+                </p>
+            </div>
+            <div class="glass-panel p-8 md:p-10 rounded-2xl border-l-4 border-green-500 fade-in">
+                <h4 class="text-xl font-bold text-green-300 mb-3 flex items-center gap-2"><i data-lucide="scale" class="w-5 h-5"></i>完全循環コストの義務化</h4>
+                <p class="text-gray-300 leading-relaxed">地球資源を「Take」して利益を出す主体は、そこから生じるゴミや環境負荷を <span class="font-bold text-white">100%回収・無害化して地球に戻す（Give）</span> コストを、最初から経営経費に組み込まなければならない。これが守られない「偽りのTake（搾取）」は、地球環境の崩壊という強烈な反作用によって強制終了させられる。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Liberation of Intelligence Section -->
+    <section id="liberation" class="py-24 relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-6 lg:px-12 text-center relative z-10">
+            <div class="fade-in">
+                <p class="text-tech-400 font-bold tracking-[0.2em] mb-4 text-sm">FLIGHT PLAN / 04</p>
+                <h3 class="font-serif text-3xl md:text-5xl font-bold mb-8">知的労働の終焉と、<br>知性の解放。</h3>
+                <p class="text-gray-300 md:text-lg leading-relaxed mb-6">
+                    核融合や進化した自然エネルギーが「搾取なしで成り立つ物質的土台」を完成させ、<br class="hidden md:block">
+                    AIが「知識の記憶やパターン処理」という作業を代替する。
+                </p>
+                <p class="font-serif text-xl md:text-2xl text-white leading-relaxed">
+                    生存のための作業から解放された人間の知性は、<br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-tech-400 to-forest-500 font-bold">「何を望むか」「倫理と調和をどう保つか」</span><br>
+                    という、最も高次元な「創造」へとシフトする。
+                </p>
+            </div>
+        </div>
+    </section>
+
     <!-- Manifesto Section -->
     <section id="manifesto" class="py-24 relative overflow-hidden">
         <!-- 背景装飾 -->
@@ -242,6 +361,20 @@
                     </p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- OSW Creed -->
+    <section class="py-20 bg-black relative">
+        <div class="max-w-4xl mx-auto px-6 text-center fade-in">
+            <p class="text-tech-400 font-bold tracking-[0.2em] mb-6 text-sm">MANIFESTO</p>
+            <p class="font-serif text-2xl md:text-4xl font-black leading-snug mb-6 text-transparent bg-clip-text bg-gradient-to-r from-tech-400 via-white to-forest-500">
+                Open Source, We Use.<br>Then Make something, Give Us.
+            </p>
+            <p class="text-gray-400 md:text-lg max-w-2xl mx-auto leading-relaxed">
+                オープンソースを、私たちは使う。ならば何かを作り、お返しをしよう。<br>
+                宇宙の彼方を見つめながら、自分の手を動かす。人間とAI、人間と地球が手をつなぎ、<br class="hidden md:block">搾取のない循環の方向へ歩みを進める。これが「風の時代」のフライトプランである。
+            </p>
         </div>
     </section>
 
