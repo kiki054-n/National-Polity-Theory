@@ -43,6 +43,7 @@
 
 - **映像で観る（YouTube）** — https://youtu.be/iT3eYfwC4G8
 - **音声で聴く（Spotify ポッドキャスト）** — https://open.spotify.com/episode/1GkrJsMp6YOzy8WCQ4Btgo
+- **音楽を声で聴く（TikTok）** — https://www.tiktok.com/@yvy_kjkg_hss_hsp/video/7651762228827409665?is_from_webapp=1&sender_device=pc&web_id=7619022712854857223
 
 ---
 
