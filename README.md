@@ -37,6 +37,15 @@
 
 ---
 
+## 🎧 観る・聴く
+
+「風の時代のフライトプラン」の映像・音声解説。サイトの「観る、聴く。」セクションからも視聴できる。
+
+- **映像で観る（YouTube）** — https://youtu.be/iT3eYfwC4G8
+- **音声で聴く（Spotify ポッドキャスト）** — https://open.spotify.com/episode/1GkrJsMp6YOzy8WCQ4Btgo
+
+---
+
 ## 🔗 エコシステム
 
 本構想は、より大きな思想体系の一部として位置づけられる。
